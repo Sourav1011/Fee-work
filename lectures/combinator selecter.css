@@ -1,0 +1,15 @@
+ul li a{
+    color: red;
+    font-size: 20px;
+}
+ul li a{
+    background-color: yellow;
+}
+ol >li{
+    background-color: yellow;
+}
+div{
+    border:2px  solid red;
+    padding: 20px;
+    margin: 10px;
+}

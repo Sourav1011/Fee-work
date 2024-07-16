@@ -1,0 +1,21 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#hero{
+background-color: aqua;
+ text-align: center;
+}
+.super{
+    color: rgb(49, 0, 128);
+}
+h1{
+    color: blue;
+    text-decoration: line-through;
+}
+input[type="text"]{
+    background-color: orange;
+}
+input[type="password"]{
+    background-color: green;
+}

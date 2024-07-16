@@ -1,0 +1,16 @@
+h1{
+     text-align: center ;
+     text-decoration-color: aqua;
+     text-decoration:dotted ;
+}
+p{
+    font-size: 30px;
+    text-decoration: line-through;
+   text-decoration-color:blue;
+   text-decoration-style:dashed;
+}
+h2{
+    text-transform:capitalize ;
+    text-indent: 20px;
+    text-shadow: 10px 8px 5px red;
+}
