@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<Style>
+    section{
+        height:200px;
+        width:200px;
+        background-color: orange;
+        border: 1px,solid black;
+      /* transition */
+      transition: 1s;
+      /* transition-duration: 4s;
+      transition-property:background-color;
+      transition-delay: 2s; */
+    }
+    section:hover{
+        border-radius: 50%;
+        background-color: brown;
+    }
+    article div{
+        height:50px;
+        width:50px;
+        background-color: chartreuse;
+        padding: 5px;
+        margin: 15px;
+        transition: 1s;
+
+    }
+    #div1{
+       transition-timing-function:linear; 
+    }
+    #div2{
+        transition-timing-function: ease;
+    }
+    #div3{
+        transition-timing-function: ease;
+    }
+</Style>
+<body>
+    <Section>
+
+    </Section>
+    <br>
+    <br>
+    <article>
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div>
+    </article>
+    
+</body>
+</html>

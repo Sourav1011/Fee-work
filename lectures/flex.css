@@ -1,0 +1,21 @@
+#container {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    
+}
+
+.items {
+    height: 100px;
+    width: 75px;
+    border: 2px solid salmon;
+    
+    align-content: end;
+    
+    
+}
+
+

@@ -1,0 +1,26 @@
+section{
+    border: 2px solid #ccc;
+    padding:1rem
+}
+
+h1{
+    font-size: 3rem;
+}
+/* media tag */
+@media(max-width:520px){
+    section{
+        background-color: orange;
+    }
+}
+@media(orientation:landscape){
+    section  p{
+        background-color: blue
+    }
+
+}
+@media(orientation:portrait){
+    section p{
+        background-color:yellow ;
+        font-weight: 800;
+    }
+}
